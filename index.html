@@ -14,6 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -31,109 +32,102 @@
   </header>
 
   <main>
-   
-<section class="hero section-wrap" id="home">
-  <div class="hero-copy">
 
-    <div class="eyebrow">
-      <span class="pulse"></span>
-      ENTREPRENEUR <i>•</i> TECHNOLOGIST <i>•</i> AUTHOR
-    </div>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
 
-    <p class="overline">HELLO, I'M</p>
+        <div class="eyebrow">
+          <span class="pulse"></span>
+          ENTREPRENEUR <i>•</i> TECHNOLOGIST <i>•</i> AUTHOR
+        </div>
 
-    <h1>
-      Er. <span>Rushikesh</span><br>
-      Kekane<span class="accent-dot">.</span>
-    </h1>
+        <p class="overline">HELLO, I'M</p>
 
-    <h2>Building ideas into <em>intelligent solutions.</em></h2>
+        <h1>
+          Er. <span>Rushikesh</span><br>
+          Kekane<span class="accent-dot">.</span>
+        </h1>
 
-    <p class="hero-text">
-      IT Professional with hands-on experience in software development,
-      Artificial Intelligence, data analytics and cybersecurity.
-      Passionate about technology, innovation and problem-solving,
-      seeking opportunities to contribute technical skills, learn from
-      industry experts and build impactful solutions.
-    </p>
+        <h2>Building ideas into <em>intelligent solutions.</em></h2>
 
-    <div class="hero-actions">
+        <p class="hero-text">
+          IT Professional with hands-on experience in software development,
+          Artificial Intelligence, data analytics and cybersecurity.
+          Passionate about technology, innovation and problem-solving,
+          seeking opportunities to contribute technical skills, learn from
+          industry experts and build impactful solutions.
+        </p>
 
-      <a class="button primary" href="#work">
-        Explore my work <b>↗</b>
-      </a>
+        <div class="hero-actions">
 
-      <a class="button secondary" href="#contact">
-        Let's talk <b>↗</b>
-      </a>
+          <a class="button primary" href="#work">
+            Explore my work <b>↗</b>
+          </a>
 
-      <a
-        class="button resume-btn"
-        href="./assets/Rushikesh_Kekane_Resume.pdf"
-        download="Rushikesh_Kekane_Resume.pdf"
-      >
-        <b>↓</b> Download Resume
-      </a>
+          <a class="button secondary" href="#contact">
+            Let's talk <b>↗</b>
+          </a>
 
-    </div>
+          <a class="button resume-btn" href="./assets/Rushikesh_Kekane_Resume.pdf"
+            download="Rushikesh_Kekane_Resume.pdf">
+            <b>↓</b> Download Resume
+          </a>
 
-    <div class="stats">
+        </div>
 
-      <div>
-        <strong>3+</strong>
-        <span>Years of Freelance & Project Experience</span>
+        <div class="stats">
+
+          <div>
+            <strong>3+</strong>
+            <span>Years of Freelance & Project Experience</span>
+          </div>
+
+          <div>
+            <strong>50+</strong>
+            <span>Projects delivered*</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Published Books</span>
+          </div>
+
+        </div>
+
       </div>
 
-      <div>
-        <strong>50+</strong>
-        <span>Projects delivered*</span>
+      <div class="hero-visual">
+
+        <div class="portrait-frame">
+
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="portrait-glow"></div>
+
+          <img src="assets/rushikesh-portrait.jpeg" alt="Portrait of Rushikesh Kekane" class="portrait">
+
+          <div class="portrait-tag">
+            <span class="status-dot"></span>
+            Curious mind. Builder's mindset.
+          </div>
+
+        </div>
+
+        <div class="floating-note note-top">
+          <span>01 / VISION</span>
+          <b>Think beyond<br>the ordinary.</b>
+        </div>
+
+        <div class="floating-note note-bottom">
+          <span>02 / PURPOSE</span>
+          <b>Learn. Build.<br>Make an impact.</b>
+        </div>
+
+        <div class="spark spark-one">✳</div>
+        <div class="spark spark-two">✧</div>
+
       </div>
-
-      <div>
-        <strong>02</strong>
-        <span>Published Books</span>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="hero-visual">
-
-    <div class="portrait-frame">
-
-      <div class="orbit orbit-a"></div>
-      <div class="orbit orbit-b"></div>
-      <div class="portrait-glow"></div>
-
-      <img
-        src="assets/rushikesh-portrait.jpeg"
-        alt="Portrait of Rushikesh Kekane"
-        class="portrait"
-      >
-
-      <div class="portrait-tag">
-        <span class="status-dot"></span>
-        Curious mind. Builder's mindset.
-      </div>
-
-    </div>
-
-    <div class="floating-note note-top">
-      <span>01 / VISION</span>
-      <b>Think beyond<br>the ordinary.</b>
-    </div>
-
-    <div class="floating-note note-bottom">
-      <span>02 / PURPOSE</span>
-      <b>Learn. Build.<br>Make an impact.</b>
-    </div>
-
-    <div class="spark spark-one">✳</div>
-    <div class="spark spark-two">✧</div>
-
-  </div>
-</section>
+    </section>
 
 
     <section class="ticker">
@@ -141,7 +135,7 @@
         <b>✳</b> RESEARCH &amp; WRITING <b>✳</b>
       </div>
     </section>
-   
+
     <section class="section-wrap section" id="about">
       <div class="section-heading">
         <p class="overline">A LITTLE ABOUT ME</p>
@@ -387,6 +381,11 @@
 
 
 
+
+    <!-- ==========================================
+     AUTHOR & PUBLISHED BOOKS SECTION
+========================================== -->
+
     <section class="section-wrap section author-section" id="author">
 
       <div class="section-heading">
@@ -395,15 +394,18 @@
       </div>
 
       <!-- BOOK 01: WHEN AI GETS AN IDENTITY -->
+
       <div class="book-layout glass">
 
         <div class="book-image">
           <div class="book-image-glow"></div>
+
           <img src="./assets/whenaigetsanidentity.png" alt="When AI Gets An Identity book cover by Rushikesh Kekane"
             loading="lazy">
         </div>
 
         <div class="book-copy">
+
           <p class="overline">AUTHOR — WORDSBYRUSHIKESH</p>
 
           <h3>When AI Gets An Identity</h3>
@@ -420,30 +422,46 @@
           </p>
 
           <div class="book-links">
-            <a href="https://www.amazon.in/s?k=9789376509010&tag=namyapress05-21" target="_blank" rel="noopener">Amazon
-              ↗</a>
 
-            <a href="https://www.flipkart.com/books/pr?sid=bks&q=9789376509010" target="_blank" rel="noopener">Flipkart
-              ↗</a>
+            <a href="https://www.amazon.in/s?k=9789376509010&tag=namyapress05-21" target="_blank"
+              rel="noopener noreferrer">
+              Amazon ↗
+            </a>
 
-            <a href="https://bookscape.com/search/9789376509010" target="_blank" rel="noopener">Bookscape ↗</a>
+            <a href="https://www.flipkart.com/books/pr?sid=bks&q=9789376509010" target="_blank"
+              rel="noopener noreferrer">
+              Flipkart ↗
+            </a>
+
+            <a href="https://bookscape.com/search/9789376509010" target="_blank" rel="noopener noreferrer">
+              Bookscape ↗
+            </a>
+
           </div>
+
+          <p class="fineprint">
+            Published Book by Rushikesh Kekane.
+          </p>
+
         </div>
 
       </div>
 
 
       <!-- BOOK 02: THE DAY WE STOPPED TALKING -->
+
       <div class="book-layout glass">
 
         <div class="book-image">
           <div class="book-image-glow"></div>
+
           <img src="./assets/thedaywestoppedtalking.png" alt="The Day We Stopped Talking book cover by Rushikesh Kekane"
             loading="lazy">
         </div>
 
         <div class="book-copy">
-          <p class="overline">FICTION — EMOTIONAL STORYTELLING</p>
+
+          <p class="overline">AUTHOR — WORDSBYRUSHIKESH</p>
 
           <h3>The Day We Stopped Talking</h3>
 
@@ -464,26 +482,47 @@
           </p>
 
           <div class="book-links">
-            <a href="https://www.instagram.com/p/DfznTQGiCfF/" target="_blank" rel="noopener">
+
+            <a href="https://www.amazon.in/s?k=9788166171574&tag=namyapress05-21" target="_blank"
+              rel="noopener noreferrer">
+              Buy on Amazon ↗
+            </a>
+
+            <a href="https://bookscape.com/search/9788166171574" target="_blank" rel="noopener noreferrer">
+              Buy on Bookscape ↗
+            </a>
+
+            <a href="https://www.instagram.com/wordsbyrushikesh/?hl=en" target="_blank" rel="noopener noreferrer">
               Explore Series ↗
             </a>
+
           </div>
 
           <p class="fineprint">
-            A new fictional series by Rushikesh Kekane.
-            Part 1 — Upcoming.
+            Published Fiction Book by Rushikesh Kekane.
+            Part 1 — Now Available.
           </p>
+
         </div>
 
       </div>
 
     </section>
+
+
+    <!-- ==========================================
+     AUTHOR / BOOKS SECTION CSS
+========================================== -->
+
     <style>
-      /* AUTHOR / BOOK SECTION */
+      /* AUTHOR SECTION */
 
       .author-section {
         position: relative;
       }
+
+
+      /* BOOK LAYOUT */
 
       .book-layout {
         display: grid;
@@ -495,6 +534,7 @@
         border-radius: 24px;
         overflow: hidden;
       }
+
 
       /* BOOK COVER IMAGE */
 
@@ -515,16 +555,25 @@
         border-radius: 5px;
         position: relative;
         z-index: 2;
+
         box-shadow:
           0 20px 45px rgba(0, 0, 0, 0.35),
           0 5px 12px rgba(0, 0, 0, 0.2);
-        transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+        transition:
+          transform 0.4s ease,
+          box-shadow 0.4s ease;
       }
 
       .book-image:hover img {
         transform: translateY(-8px) rotate(-1deg);
-        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+
+        box-shadow:
+          0 30px 60px rgba(0, 0, 0, 0.4);
       }
+
+
+      /* BOOK IMAGE GLOW */
 
       .book-image-glow {
         position: absolute;
@@ -532,12 +581,15 @@
         height: 120%;
         top: -10%;
         left: -30%;
+
         background: radial-gradient(circle,
             rgba(0, 174, 255, 0.2),
             transparent 70%);
+
         filter: blur(35px);
         z-index: 0;
       }
+
 
       /* BOOK CONTENT */
 
@@ -549,12 +601,14 @@
       .book-copy h3 {
         font-size: clamp(25px, 3vw, 36px);
         margin: 12px 0 20px;
+        line-height: 1.3;
       }
 
       .book-copy p {
         line-height: 1.8;
         margin-bottom: 16px;
       }
+
 
       /* BOOK LINKS */
 
@@ -568,11 +622,15 @@
       .book-links a {
         display: inline-block;
         padding: 11px 20px;
+
         border: 1px solid rgba(0, 174, 255, 0.4);
         border-radius: 30px;
+
         color: #35c5ff;
         text-decoration: none;
         font-size: 14px;
+        font-weight: 500;
+
         transition: all 0.3s ease;
       }
 
@@ -583,13 +641,17 @@
         transform: translateY(-3px);
       }
 
+
+      /* BOOK FOOTNOTE */
+
       .fineprint {
         font-size: 13px;
         opacity: 0.65;
         margin-top: 20px;
       }
 
-      /* RESPONSIVE DESIGN */
+
+      /* TABLET RESPONSIVE */
 
       @media (max-width: 768px) {
 
@@ -614,14 +676,27 @@
 
       }
 
+
+      /* MOBILE RESPONSIVE */
+
       @media (max-width: 480px) {
 
         .book-layout {
           padding: 20px 15px;
+          gap: 25px;
+          border-radius: 18px;
         }
 
         .book-image {
           max-width: 190px;
+        }
+
+        .book-copy h3 {
+          font-size: 25px;
+        }
+
+        .book-links {
+          gap: 10px;
         }
 
         .book-links a {
@@ -631,6 +706,7 @@
 
       }
     </style>
+
 
 
     <section class="section-wrap section journey-section" id="journey">
@@ -733,8 +809,8 @@
     </section>
   </main>
 
-  <footer class="footer"><a class="brand" href="#home"><span
-        class="brand-mark">RK.</span><span>RUSHIKESH KEKANE<br></span></a>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">RK.</span><span>RUSHIKESH
+        KEKANE<br></span></a>
     <p>Curiosity to create. Ideas into impact.</p><span>© <span id="year"></span> Rushikesh Kekane · Built with
       purpose.</span>
   </footer>
